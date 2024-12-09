@@ -1,0 +1,30 @@
+name: pos_flutter
+description: "A new Flutter project."
+
+# Mengatur agar package tidak dipublikasikan ke pub.dev
+publish_to: 'none'
+
+# Versi aplikasi
+version: 1.0.0+1
+
+# Lingkungan SDK
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+# Dependensi utama
+dependencies:
+  fl_chart: ^0.65.0
+  flutter:
+    sdk: flutter
+  get: ^4.6.5
+  http: ^1.2.2
+
+# Dependensi untuk pengujian dan lints
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+# Konfigurasi spesifik Flutter
+flutter:
+  uses-material-design: true
